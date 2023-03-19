@@ -1,0 +1,251 @@
+body{
+  background-color: #ffffff;
+  font-family: 'Encode Sans', sans-serif;
+}
+header{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-top: 1px solid #F5F6F7;
+  border-bottom: 1px solid #F5F6F7;
+}
+#links{
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+}
+#centralization{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mainSide{
+  width: 1250px;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+    "main aside "
+  ;
+  grid-template-columns: 667px ;
+
+}
+
+.decoration{
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 700;
+}
+#g1{
+  color: #C3170C;
+}
+#oGlobo{
+  color: #1E4B9B;
+}
+#valor{
+  color: #006766;
+}
+#ge{
+  color: #07AA47;
+}
+#cartola{
+  color: #E3662B;
+}
+#globoplay{
+  color: #FB0735;
+}
+#dropz{
+  color: #FF75BB;
+}
+#gshow{
+  color: #EC7D00;
+}
+#quem{
+  color: #323333;
+}
+#receitas{
+  color: #A81D83;
+}
+#textInicial{
+  margin-top: 34px;
+  width: 624px; 
+  margin-bottom: 25px;
+}
+#textInicial h1{
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  color: #C4160C;
+  text-align: left;
+  margin-bottom: 29px;
+}
+#textInicial p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color:#303134;
+}
+.line{
+  width: 624px;
+}
+.line hr{
+  border: 1px solid #F5F6F7;
+  margin-bottom: 25px;
+}
+#imgNews{
+  display: flex;
+  width: 627px;
+  justify-content: space-between;
+}
+.imgCard{
+  width: 193px;
+}
+.imgSmall{
+  width: 193px;
+  border-radius: 12px;
+}
+.redP{
+  color: #C4170C;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 11px;
+  margin-bottom: 6px;
+}
+.titleSecondary{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15.5px;
+  color: #2F3134;
+  line-height: 24px;
+}
+.greyP{
+  color: #2F3134;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+#textNews{
+  width: 626px;
+  display: flex;
+  justify-content: space-between;
+}
+.textCard{
+  height: 84px;
+  width: 192px;
+}
+.redPt{
+  color: #C4170C;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+#newsAside{
+  display: flex;
+  justify-content: center;
+  width: 312px;
+  height: 846px;
+  border-left: 1px solid #EBEDEF;
+  border-right: 1px solid #EBEDEF;
+  margin-top: 36px;
+  
+}
+#sportNews{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cardSport{
+  width: 240px;
+}
+.imgBig{
+  border-radius: 12px;
+  width: 240px;
+}
+.greyPsport{
+  margin-bottom: 59px;
+  color: #2F3134;
+  line-height: 19px;
+  font-weight: 400;
+  
+}
+.greenP{
+  color: #16AE54;
+  font-weight: 500;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.titleSecondarySportImg{
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+}
+.titleSecondarySport{
+  margin-bottom: 54px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+}
+main{
+  grid-area:main;
+}
+aside{
+  grid-area: aside;
+  display: flex;
+  
+}
+#newspaper{
+  margin-top: 36px;
+  width: 314px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.cardNews{
+  width: 240px;
+}
+.yellowP{
+  color: #EC8006;
+  margin-top: 11px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.titleSecondaryNewsImg{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+  margin-bottom: 61px;
+}
+.titleSecondaryNews{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+  margin-bottom: 14px;
+}
+.titleSecondaryNewsEnd{
+  font-size: 20px;
+  font-weight: 700;
+  color: #2F3134;
+  margin-bottom: 8px;
+}
+.greyPnews{
+  line-height: 26px;
+  margin-bottom: 52px;
+  color: #2F3134;
+  font-size: 14px;
+}
