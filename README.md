@@ -1,3 +1,0 @@
-# Globo
-# Globo
-# Globo
